@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Ethereum Development Utilities",
+  "description": "Handy tools for Ethereum developers/researchers.",
+  "developer_name": "William Cheung (github@troublor.xyz)",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "address",
+      "type": "keyword",
+      "name": "Address",
+      "description": "Convert address to checksum address or back to original address",
+      "default_value": "addr"
+    }
+  ]
+}
